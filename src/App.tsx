@@ -1,10 +1,16 @@
-function App() {
+import { useState } from "react";
+import Button from "./components/Button";
+
+export default function App() {
+  const [message, setMessage] = useState("Let's learn more about testing in React");
+
   return (
     <div>
       <h1>Hello world!</h1>
-      <p>Let's learn more about testing in React</p>
+      <p>{message}</p>
+      <Button disabled onClick={() => setMessage("New message!")}>
+        Change message
+      </Button>
     </div>
   );
 }
-
-export default App;
