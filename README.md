@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Objective
+
+This project was created for my studies in front-end development using react-testing-library and jest.
+
 ## Available Scripts
 
 In the project directory, you can run:
